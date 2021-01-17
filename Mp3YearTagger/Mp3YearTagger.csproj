@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Mp3YearTagger</AssemblyName>
+    <RootNamespace>KrahmerSoft.Mp3YearTagger</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MetaBrainz.MusicBrainz" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ext\CSId3Lib\ID3Lib\ID3Lib\ID3Lib.csproj" />
+  </ItemGroup>
+
+</Project>
